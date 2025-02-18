@@ -21,5 +21,5 @@ func GetInstance() *Singleton {
 func CallSingleton() {
 	s1 := GetInstance()
 	s2 := GetInstance()
-	fmt.Printf("Is the same - %v", s1 == s2)
+	fmt.Printf("Is the same - %v\n", s1 == s2)
 }
